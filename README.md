@@ -6,4 +6,4 @@ Whenever we write code in any object oriented programming language we need to ta
 ## Interface Segregation Principle (ISP)
 ## Dependency Inversion Principle (DIP)
 
-In this folder we will have a look at all the principles separately.
+Here we will have a look at all the principles separately.
