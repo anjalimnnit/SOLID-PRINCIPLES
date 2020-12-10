@@ -7,9 +7,13 @@ as uncle Bob.
 By following these principles we can make our code loosely coupled.
 The five principles are:
 ## Single Responsibility Principle (SRP)
+
 ## Open/Closed Principle
+
 ## Liskov’s Substitution Principle (LSP)
+
 ## Interface Segregation Principle (ISP)
+
 ## Dependency Inversion Principle (DIP)
 
 Here we will have a look at all the principles separately.
