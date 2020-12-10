@@ -1,4 +1,7 @@
-When we are writing longer codes we do need to consider the fact that our code should be maintainable.
+# SRP
+
+When we are writing longer codes we do need to consider
+the fact that our code should be maintainable.
 If we write too much functionalities in a single class it becomes the God class.
 And it is difficult to add features or modify the God class.
 Therefore the class must have only a single responsibility
