@@ -12,29 +12,29 @@ Let us take an example of shopping site.
 Suppose we have an user trying to login to a website.
 These are the possibilities :
 
-interface IUser
-{
-boolean Login(string userName, string password);
-boolean Register(string userName, string password, string email);
-void LogError(string msg);
-boolean sendMail(string content);
-}
+interface IUser  
+{  
+boolean Login(string userName, string password);  
+boolean Register(string userName, string password, string email);  
+void LogError(string msg);  
+boolean sendMail(string content);  
+}  
 
 But here we can find that login or Register is handled by user
 and rest two can be separated from them.
 After applying SRP
-interface IUser
-{
-boolean Login(string userName, string password);
-boolean Register(string userName, string password, string email);
-}
+interface IUser  
+{  
+boolean Login(string userName, string password);  
+boolean Register(string userName, string password, string email);  
+}  
 
-interface IError
-{
-void LogError(string msg);
-}
+interface IError  
+{  
+void LogError(string msg);  
+}  
 
-interface IEmail
-{
-boolean sendMail(string content);
-}
+interface IEmail  
+{  
+boolean sendMail(string content);  
+}  
